@@ -35,7 +35,17 @@
       text-align: left !important;
       /*這是註解*/
     }
+    
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+      color: #fff;
+      background-color: #979797b9;
+    }
+    .nav-link {
+      color: rgb(68, 68, 67);
+    }
+    
   </style>
+
 
 
 </head>
@@ -45,14 +55,15 @@
   <div class="container-xxl">
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
       <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <img src="./images/esliteLogo.png" alt="誠品書店" width="100">        
+        <img src="./images/esliteLogo.png" alt="誠品書店" width="100" class="ms-3">        
       </a>
+
       <ul class="nav nav-pills">
         <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">最新消息</a></li>
         <li class="nav-item"><a href="#" class="nav-link">書店</a></li>
         <li class="nav-item"><a href="#" class="nav-link">生活</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">畫廊</a></li>
-        </ul>
+        <li class="nav-item"><a href="#" class="nav-link">畫廊</a></li>        
+      </ul>
     </header>
   </div>
 
